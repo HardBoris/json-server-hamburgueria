@@ -4,7 +4,7 @@ const auth = require("json-server-auth");
 
 const app = jsonServer.create();
 const router = jsonServer.router("db.json");
-const port = process.env.PORT || 3333;
+const port = process.env.PORT || 3335;
 
 app.db = router.db;
 
