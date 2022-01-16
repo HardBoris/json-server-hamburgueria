@@ -10,7 +10,6 @@ app.db = router.db;
 
 const rules = auth.rewriter({
   "/users*": "/600/users$1",
-  "/tasks*": "/600/tasks$1",
 });
 
 app.use(cors());
