@@ -9,8 +9,8 @@ const port = process.env.PORT || 3335;
 app.db = router.db;
 
 const rules = auth.rewriter({
-  // "/users*": "/644/users$1",
   users: 644,
+  products: 444,
 });
 
 app.use(cors());
